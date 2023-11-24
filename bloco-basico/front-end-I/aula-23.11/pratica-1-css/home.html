@@ -1,39 +1,39 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="icon" type="image/x-icon" href="/images/favicon.ico" />
-    <title>Relembrando - Growdev</title>
-  </head>
 
-  <body>
-    <header id="top">
-      <nav>
-        <a href="home.html">Home &nbsp;&nbsp;</a>
-        <a href="fullstack.html">Starter Full Stack &nbsp;&nbsp;</a>
-        <a href="https://www.growdev.com.br/programs/ux-ui"
-          >UI UX &nbsp;&nbsp;</a
-        >
-        <a href="https://www.growdev.com.br/programs/data-analyst"
-          >Data Analyst &nbsp;&nbsp;</a
-        >
-        <a href="https://www.growdev.com.br/programs/qa">QA</a>
-      </nav>
-      <br />
-      <img src="/images/growdev.png" alt="Growdev" width="400" height="200" />
-    </header>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="icon" type="image/x-icon" href="./images/favicon.ico" />
+  <link rel="stylesheet" type="text/css" href="./css/styles.css" />
+  <title>Relembrando - Growdev</title>
+</head>
 
-    <main>
-      <h1>Growdev</h1>
-      <section>
-        <article>
+<body>
+  <header class="nav-menu">
+    <nav>
+      <img src="./images/logo.png" alt="Growdev" class="logo-grow" />
+      <a href="home.html" class="nav-link nav-link-active">Home</a>
+      <a href="fullstack.html" class="nav-link">Starter Full Stack</a>
+      <a href="https://www.growdev.com.br/programs/ux-ui" class="nav-link">UI UX</a>
+      <a href="https://www.growdev.com.br/programs/data-analyst" class="nav-link">Data Analyst</a>
+      <a href="https://www.growdev.com.br/programs/qa" class="nav-link">QA</a>
+    </nav>
+  </header>
+
+  <main>
+    <section>
+      <div class="banner">
+
+      </div>
+      <article class="article">
+        <div>
           <h2>
             Nosso propósito é acelerar a entrada de pessoas da área de produtos
             digitais no mercado de trabalho.
           </h2>
 
-          <pre>
+          <p>
             Somos uma empresa de tecnologia com o propósito de mudar a vida de
             pessoas e organizações, formando profissionais capacitados para
             ingressar no mercado de desenvolvimento de produtos digitais. Seus
@@ -43,97 +43,79 @@
             diminuição do déficit de mão de obra na área de tecnologia e,
             também, ajudar as empresas a reduzirem seus riscos e custos com
             contratações.
-          </pre>
-
-          <img
-            src="/images/growdev1.png"
-            alt="Marcelo e Manoel"
-            style="width: 400px; height: 200px"
-          />
-
-          <hr />
-        </article>
-
-        <article>
-          <h2>Nossa missão</h2>
-
-          <p>
-            Mudar a vida de pessoas e organizações, formando profissionais
-            capacitados para ingressar no mercado de desenvolvimento de produtos
-            digitais.
           </p>
 
-          <img
-            src="/images/growdev2.png"
-            alt="Time Growdev"
-            width="400"
-            height="200"
-          />
+          <button id="btn-saiba-mais">Saiba mais!</button>
+        </div>
+        <img src="./images/growdev1.png" alt="Marcelo e Manoel" class="img-article" />
+      </article>
 
-          <hr />
-        </article>
+      <article class="article">
+        <h2>Nossa missão</h2>
 
-        <article>
-          <h2>Nossos valores</h2>
+        <p>
+          Mudar a vida de pessoas e organizações, formando profissionais
+          capacitados para ingressar no mercado de desenvolvimento de produtos
+          digitais.
+        </p>
 
-          <p>
-            Somos feitos de pessoas e o respeito é a nossa prioridade. Estamos
-            em constante movimento, acreditamos na evolução contínua.
-            Trabalhamos com confiança, mantendo um ambiente seguro, acolhedor e
-            de comprometimento. Prezamos pela excelência, norteamos as nossas
-            ações com zelo e responsabilidade.
-          </p>
+        <img src="./images/growdev2.png" alt="Time Growdev" class="img-article" />
 
-          <img
-            src="/images/growdev3.png"
-            alt="Marcelo e Compania"
-            width="400"
-            height="200"
-          />
+        <hr />
+      </article>
 
-          <hr />
-        </article>
+      <article class="article">
+        <h2>Nossos valores</h2>
 
-        <article>
-          <h2>Nossa cultura</h2>
+        <p>
+          Somos feitos de pessoas e o respeito é a nossa prioridade. Estamos
+          em constante movimento, acreditamos na evolução contínua.
+          Trabalhamos com confiança, mantendo um ambiente seguro, acolhedor e
+          de comprometimento. Prezamos pela excelência, norteamos as nossas
+          ações com zelo e responsabilidade.
+        </p>
 
-          <p>
-            Trabalhamos com seriedade e com base em nossos valores para entregar
-            aquilo com o que nos comprometemos, transformar a vida daqueles que
-            confiam o seu futuro conosco, através de uma educação de qualidade e
-            oportunidades.
-          </p>
+        <img src="./images/growdev3.png" alt="Marcelo e Compania" class="img-article" />
 
-          <img src=/images/growdev4.png alt="Time Completo Growdev"
-          style="width: 400px; height: 200px;">
+        <hr />
+      </article>
 
-          <hr />
-        </article>
+      <article class="article">
+        <h2>Nossa cultura</h2>
 
-        <article style="text-align: center">
-          <h2>
-            Somos profissionais apaixonados por tecnologia e educação, buscando
-            constantemente melhorias e maior qualidade para nossos alunos.
-          </h2>
+        <p>
+          Trabalhamos com seriedade e com base em nossos valores para entregar
+          aquilo com o que nos comprometemos, transformar a vida daqueles que
+          confiam o seu futuro conosco, através de uma educação de qualidade e
+          oportunidades.
+        </p>
 
-          <img
-            src="/images/growdev5.jpeg"
-            alt="Aniversário Growdev"
-            width="900"
-            height="400"
-          />
-        </article>
-      </section>
-    </main>
+        <img src=./images/growdev4.png alt="Time Completo Growdev" class="img-article">
 
-    <footer>
-      <a href="#top">
-        <button>Volte ao topo ☝</button>
-      </a>
-      <small
-        >&copy; 2022 Growdev. All rights reserved
-        <a href="https://www.growdev.com.br/">Growdev</a></small
-      >
-    </footer>
-  </body>
+        <hr />
+      </article>
+
+      <article class="article">
+        <h2>
+          Somos profissionais apaixonados por tecnologia e educação, buscando
+          constantemente melhorias e maior qualidade para nossos alunos.
+        </h2>
+
+        <img src="./images/growdev5.jpeg" alt="Aniversário Growdev" class="img-article" />
+      </article>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <small>
+      &copy; 2022 Growdev. All rights reserved
+      <a href="https://www.growdev.com.br/">Growdev</a>
+    </small>
+    <br>
+    <a href="#top">
+      <button id="btn-voltar-top">Volte ao topo ☝</button>
+    </a>
+  </footer>
+</body>
+
 </html>
