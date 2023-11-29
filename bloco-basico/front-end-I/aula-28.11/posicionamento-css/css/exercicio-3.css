@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-direction: column;
+  /* gap: 30px; */
+}
+
+.square {
+  width: 80%;
+  height: 35%;
+  background-color: #3a3a3a;
+  padding: 30px;
+  color: white;
+}
+
+.square-one {
+  border-radius: 30px;
+  text-align: end;
+  text-transform: uppercase;
+  overflow: hidden;
+}
+
+.square-two {
+  border: 5px;
+  border-color: red;
+  border-style: solid;
+  overflow-y: auto;
+}
