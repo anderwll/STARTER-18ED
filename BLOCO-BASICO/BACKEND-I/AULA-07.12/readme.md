@@ -2,4 +2,3 @@
 
 - Lógica simples e estruturas condicionais 1
 
-Desenvolvido pela turma.
